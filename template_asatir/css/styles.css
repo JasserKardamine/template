@@ -98,7 +98,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   overflow-x: hidden;
-
+  background-color:#101014;
 }
 
 
@@ -10262,12 +10262,6 @@ ul li a:hover {
 .login-button:hover {
   background-color: #007B9E;
 }
-
-
-
-
-
-
 .topartist {
   width: 90px;
   height: 90px;
@@ -10313,8 +10307,6 @@ ul li a:hover {
   cursor: pointer;
   overflow: hidden;
 }
-
-
 .titleheader{
   padding-top: 100px;
   background-color:  #101014 ; 
@@ -10323,8 +10315,6 @@ ul li a:hover {
   color : white ; 
   margin: 0;
 }
-
-
 .titlesection{
   padding-top: 60px;
   background-color:  #101014 ; 
@@ -10333,3 +10323,217 @@ ul li a:hover {
   color : white ; 
   margin: 0;
 }
+wallpaper {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-height: 400px; 
+  overflow: hidden;
+}
+wallpaper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.wallpaper-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 100px; 
+  font-weight: bold;
+  text-align: center;
+}
+events {
+  display: flex;
+  gap: 20px;
+  max-width: 1900px;
+  height: 1393px;
+  padding:15px;
+
+}
+filters {
+  width: 20%;
+  padding: 20px;
+  border-radius: 10px;
+}
+content {
+  width: 80%;
+  background: #101014;
+  padding: 20px;
+  border-radius: 10px;
+}
+.location h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+.location ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  gap: 10px;
+}
+.location li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.location li:last-child {
+  border-bottom: none;
+}
+.location label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #AEAEB2;
+  cursor: pointer;
+}
+.location input[type="checkbox"] {
+  accent-color: var(--bs-white);
+  width: 16px;
+  height: 16px;
+}
+.date {
+  width: 100%;
+  max-width: 300px;
+  background: #101014;
+  padding-top: 0px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.date h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+}
+.calendar button {
+  background: #101014;
+  color: #AEAEAD;
+  border: 1px solid #2F2F2F;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+.calendar button:hover {
+  border: 2px solid #61CDF0;
+}
+.type h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+.type ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  gap: 10px;
+}
+.type li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.type li:last-child {
+  border-bottom: none;
+}
+.type label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #AEAEB2;
+  cursor: pointer;
+}
+.type input[type="checkbox"] {
+  accent-color: var(--bs-white);
+  width: 16px;
+  height: 16px;
+}
+.event-list {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.event-date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+}
+
+.date-info {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.event-card {
+  display: flex;
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.event-details {
+  flex: 1;
+}
+
+.event-duration {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.event-location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.event-tags {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.tag {
+  background: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.event-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
